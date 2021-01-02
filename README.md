@@ -16,13 +16,15 @@ The output is stored in the <b>synthetic</b> folder:
 </ul>
 </p>
   
-<u1>Number of clients and arrival regime</u1>
+<h1>Number of clients and arrival regime</h1>
 
-a) Number of clients
+<p>
+a) Number of clients<br/>
 Para mudar a quantidade de clientes basta alterar a variável TOTAL_CLIENTS da linha 133
-
-b) Arrival regime
-
-Para alterar o regime de chegada dos clientes, isto é, a fração de clientes que chega a cada segundo, basta alterar o arquivo probabilidades_arrival_global_14400.csv. 
-Este arquivo está setado para simular um intervalo de 14400 segundos, mas isso pode ser mudado. Basta que também seja mudado a instrução:
+</p>
+<p>
+b) Arrival regime<br/>
+Para alterar o regime de chegada dos clientes, isto é, a fração de clientes que chega a cada segundo, basta alterar o arquivo probabilidades_arrival_global_14400.csv. <br/>
+Este arquivo está setado para simular um intervalo de 14400 segundos, mas isso pode ser mudado. Basta que também seja mudado a instrução:<br/>
 user_arr = np.random.choice(a = np.arange(1,14401,1), size=clients_list, replace = True, p = read_csv("probabilidades_arrival_global_14400.csv"))
+</p>
