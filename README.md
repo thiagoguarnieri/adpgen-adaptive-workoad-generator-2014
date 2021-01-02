@@ -1,7 +1,11 @@
 # AdpGen Synthetic Workload Generator
-AdpGen, a workload generator for live events broadcasted through HTTP Adaptive Streaming, based on 2014 FIFA World Cup event.
-https://ieeexplore.ieee.org/document/8969602/
+AdpGen, a workload generator for live events broadcasted through HTTP Adaptive Streaming
 
+<ul>
+<li>Based on 2014 FIFA World Cup event: https://ieeexplore.ieee.org/document/8969602/</li>
+<li>Generates the client on-time, inter-session time, number of sessions and adaptation regime</li>
+<ul>
+  
 <h1>Instructions</h1>
 <p>To call the generator from the command line use:<br /> 
 <i>python generator_cluster_markov_thesis_v2.py [execution round number] [random seed];</i></p>
