@@ -4,7 +4,7 @@ AdpGen, a workload generator for live events broadcasted through HTTP Adaptive S
 <ul>
 <li>Based on 2014 FIFA World Cup event: https://ieeexplore.ieee.org/document/8969602/</li>
 <li>Generates the client on-time, inter-session time, number of sessions and adaptation regime</li>
-<ul>
+</ul>
   
 <h1>Instructions</h1>
 <p>To call the generator from the command line use:<br /> 
