@@ -27,7 +27,7 @@ The output is stored in the <b>synthetic</b> folder:
 
 <p>
 <b>Number of clients</b><br/>
-To change the number of clients, change the value of variable <i>TOTAL_CLIENTS</i> on line 133
+To change the number of clients, change the value of variable <i>TOTAL_CLIENTS</i> on line 136
 </p>
 <p>
 <b>Arrival regime</b><br/>
