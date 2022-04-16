@@ -1,5 +1,5 @@
 # AdpGen Synthetic Workload Generator
-AdpGen, a workload generator for live events broadcasted through HTTP Adaptive Streaming
+AdpGen, a workload generator for live events broadcasted through HTTP Adaptive Streaming. It can be used, for instance, to generate a synthetic workload in order to evaluate server resource consumption.
 
 <ul>
 <li>Based on 2014 FIFA World Cup event: https://ieeexplore.ieee.org/document/8969602/</li>
